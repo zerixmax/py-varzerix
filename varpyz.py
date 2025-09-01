@@ -8,4 +8,5 @@ tezina = 68.5 #u kilogramima
 spol = "musko"
 # Varijable za stranice četverokutai površinu
 a = 10
-b =5
+b = 5
+print(a * b)

@@ -21,6 +21,4 @@ print("Spol:", spol)
 print("Stranica a:", a)
 print("Stranica b:", b)
 print("Površina četverokuta:", povrsina)
-# Tarba nika nece bit skale
-"""vise linijski
-komentari  koda"""
+

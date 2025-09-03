@@ -29,6 +29,7 @@ graduated = True
 """Kreirati varijablu za čuvanje podataka o studentu: ime i prezime,
 OIB, email, broj telefona, prosječna ocjena, godina upisa
 studija, naziv studija, naziv sveučilišta"""    
+
 student = {
     "name": student_name,
     "surname": student_surname,
@@ -40,8 +41,12 @@ student = {
     "study_name": "Brodostrojarstvo",
     "university_name": "Sveučilište u Dubrovniku"
 }
-
-
-
-
-
+first_name = student["name"]
+last_name = student["surname"]
+OIB = student["OIB"]
+email = student["email"]
+mobilephone_number = student["mobilephone_number"]
+average_grade = student["average_grade"]
+enrollment_year = student["enrollment_year"]
+study_name = student["study_name"]
+university_name = student["university_name"]

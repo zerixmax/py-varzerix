@@ -29,14 +29,19 @@ graduated = True
 """Kreirati varijablu za čuvanje podataka o studentu: ime i prezime,
 OIB, email, broj telefona, prosječna ocjena, godina upisa
 studija, naziv studija, naziv sveučilišta"""    
+student = {
+    "name": student_name,
+    "surname": student_surname,
+    "OIB": "12345678901",
+    "email": "ivo@korcula.me",
+    "mobilephone_number": "+38512345678",
+    "average_grade": 4.5,
+    "enrollment_year": 1999,
+    "study_name": "Brodostrojarstvo",
+    "university_name": "Sveučilište u Dubrovniku"
+}
 
-OIB = "12345678901"
-email = "ivo@korcula.me"
-mobilephone_number = "+38512345678"
-average_grade = 4.5
-enrollment_year = 1999
-study_name = "Brodostrojarstvo"
-university_name = "Sveučilište u Dubrovniku "
+
 
 
 
